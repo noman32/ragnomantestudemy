@@ -36,7 +36,7 @@ def hr_index():
 #6a. Write a function to connect to Bedrock Foundation Model - Claude Foundation Model
 def hr_llm():
     llm=BedrockChat(
-        credentials_profile_name='default',
+        #credentials_profile_name='default',
         model_id='anthropic.claude-3-haiku-20240307-v1:0',
         #model_id='anthropic.claude-v2',
         model_kwargs={
