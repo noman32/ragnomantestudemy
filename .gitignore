@@ -10,6 +10,7 @@ Thumbs.db
 # Ignore Python cache files
 __pycache__/
 *.py[cod]
+*.pyc
 
 # Ignore IDE specific files
 .vscode/
