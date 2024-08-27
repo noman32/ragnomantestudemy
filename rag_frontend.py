@@ -1,6 +1,6 @@
 import streamlit as st 
 import rag_backend as demo ### replace rag_backend with your backend filename
-import config_aws
+
 
 st.set_page_config(page_title="HR Q and A with RAG") ### Modify Heading
 
