@@ -23,7 +23,7 @@ def hr_index():
     data_split=RecursiveCharacterTextSplitter(separators=["\n\n", "\n", " ", ""], chunk_size=100,chunk_overlap=10)
     #4. Create Embeddings -- Client connection
     data_embeddings=BedrockEmbeddings(
-    credentials_profile_name= 'default',
+    #credentials_profile_name= 'default',
     model_id='amazon.titan-embed-text-v2:0')
     #5à Create Vector DB, Store Embeddings and Index for Search - VectorstoreIndexCreator
     data_index=VectorstoreIndexCreator(
